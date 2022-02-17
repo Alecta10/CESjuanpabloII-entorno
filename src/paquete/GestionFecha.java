@@ -10,6 +10,7 @@ public class GestionFecha {
     public static Date getRandomDate() {
 	
         Random rand = new Random();
+        Random rannd = new Random();
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd ");
 		Calendar cal = Calendar.getInstance();
 		cal.set(2022, 2, 9);
