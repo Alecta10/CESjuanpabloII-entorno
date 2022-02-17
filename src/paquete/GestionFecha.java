@@ -18,6 +18,7 @@ public class GestionFecha {
 		long end = cal.getTimeInMillis();
 		Date d = new Date(start + (long) (rand.nextDouble() * (end - start)));
 		System.out.println(format.format(d));
+		System.out.println("ejhdg");
 		return d;
 
 	}
